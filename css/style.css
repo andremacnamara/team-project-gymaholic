@@ -1,0 +1,218 @@
+.main-header{
+	padding-top: 170px; /* Gives 170px of space between top of page and the header */
+	height: 1100px; /* Height of header of page is 850px */
+	background: linear-gradient(#99ccff, transparent 90%), 
+			      	linear-gradient(0deg, #fff, transparent),
+			      	#ffa949 url('../img/gym.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.index-header {
+    padding-top: 170px;
+    height: 900px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-7778.jpg) center center / cover no-repeat;
+    margin-top: -75px;
+}
+
+.indextitle {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.indextitle, .tagline, .indexbio, .title {
+    color: #fff;
+}
+
+#about {
+    color: slategrey;
+}
+.indexbio {
+    font-size: 26px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.title{  
+	font-size:1.625em; /* 26/16 = 1.625em */
+	letter-spacing: .065em; /* 0.625em between each letter */
+	font-weight: 200;	/* Sets weigiht t0 200*/
+	border-bottom: 2px solid; /* Prvoides a line underneath title */
+	padding-bottom:  10px; /*10px between title and bottom border */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg-3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/*          LOGS        */
+
+#plan{
+	height: 50%;
+	
+}
+.footer{
+	height: 20%;
+	background-color: blue;
+	width: 100%;
+	color: white;
+	margin-top:5%;
+}
+
+/* calendar */
+table.calendar		{ border-left:1px solid #999; }
+tr.calendar-row	{  }
+td.calendar-day	{ min-height:20%; font-size:50%; position:relative; } * html div.calendar-day { height:20%; }
+td.calendar-day:hover	{ background:#eceff5; }
+td.calendar-day-np	{ background:#eee; min-height:20%; } * html div.calendar-day-np { height:20%; }
+td.calendar-day-head { background:#ccc; font-weight:bold; text-align:center; width:40px; padding:1%; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number		{ background:#999; padding:2%; color:#fff; font-weight:bold; float:right; margin:-1% -1% 0 0; width:15%; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np { width:10%; padding:1%; border-bottom:1px solid #999; border-right:1px solid #999; }
+
+
+
+/* GRAMS */
+
+.gram{
+    
+    margin-top: 12px;
+}
+
+select {
+    position: center;
+    margin-bottom: 10px;
+    
+}
+
+#Dalert{
+    margin-top: 10px;
+}
+#Dalert20{
+     margin-top: 10px;
+}
+#Dalert30{
+     margin-top: 10px;
+}
+.formspacing{
+    margin: 0% 13% 0% 15%;
+}
